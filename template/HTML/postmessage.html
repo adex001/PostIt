@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="C:\Users\Segun\Documents\PostIt\template\CSS\bootstrap.min.css" />
+<link rel="stylesheet" href = "C:\Users\Segun\Documents\PostIt\template\CSS\style.css"/>
+	<title>PostIt!</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/">PostIt App</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+	<div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="createBroadcast">
+            <h2>Post a Broadcast message</h2>
+            
+            <div class="form-group">
+                <label for="sel1">Select Broadcast Group:</label>
+                    <select class="form-control" id="sel1">
+                        <option>select group id</option>
+                        <option>id2</option>
+                        <option>id3</option>
+                        <option>id4</option>
+                   </select>
+               <br>
+            <div class="form-group">
+              <label for="postMessage">post message</label>
+                 <input class="form-control input-lg" id="postMessage" type="text">
+         </div> 
+            <input type="submit" value="Send" >
+    </div>
+
+      
+		
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
