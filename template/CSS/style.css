@@ -32,6 +32,9 @@ body{
 }
 
 
-#createBroadcast{
-    
+#broadcastGroup{
+   
+    text-align: center;
+    font-family: fantasy;
+    color:  darkgreen;
 }
